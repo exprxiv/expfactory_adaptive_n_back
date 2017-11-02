@@ -1,12 +1,12 @@
 {
-    "name": "expfactory_adaptive_n_back", 
-    "alt_name": "Adaptive N-Back", 
-    "description": "Similar to the normal n-back task where subjects must press a button if the current stimulus is the same as the stimulus presenting n trials previously. It is adaptive in the sense that the n varies based on performance. If the subject does very well, the n is increased. This allows the task to adjust to the abilities of the subject. There are many implementations of the basic n-back. Our plan is to use one that requires you to match letters regardless of capitalization 'B' and 'b' would be a match. This avoids some problems with perceptual/familiarity strategies.", 
-    "version": "1.0.1", 
-    "repository": {"type": "git", "url": "git+https://github.com/expfactory-experiments/adaptive_n_back.git"}, 
-    "contributors": ["Ian Eisenberg", "Zeynep Enkavi", "Patrick Bissett", "Vanessa Sochat", "Teon L Brooks", "Russell Poldrack"], 
-    "duration": "20", 
-    "engine": {"front-end": "jspsych"}, 
-    "ontology": [ {"convention": "Cognitive Atlas", "term": "trm_56674133b666c"} ], 
+    "name": "expfactory_adaptive_n_back",
+    "alt_name": "Adaptive N-Back",
+    "description": "Similar to the normal n-back task where subjects must press a button if the current stimulus is the same as the stimulus presenting n trials previously. It is adaptive in the sense that the n varies based on performance. If the subject does very well, the n is increased. This allows the task to adjust to the abilities of the subject. There are many implementations of the basic n-back. Our plan is to use one that requires you to match letters regardless of capitalization 'B' and 'b' would be a match. This avoids some problems with perceptual/familiarity strategies.",
+    "version": "1.0.1",
+    "repository": {"type": "git", "url": "https://github.com/exprxiv/expfactory_adaptive_n_back.git"}, 
+    "contributors": ["Ian Eisenberg", "Zeynep Enkavi", "Patrick Bissett", "Vanessa Sochat", "Teon L Brooks", "Russell Poldrack"],
+    "duration": "20",
+    "engine": {"front-end": "jspsych"},
+    "ontology": [ {"convention": "Cognitive Atlas", "term": "trm_56674133b666c"} ],
     "reference": "http://www.sciencedirect.com/science/article/pii/S1053811905001424"
 }
